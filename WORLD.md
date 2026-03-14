@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 132
-last_updated: 2026-03-14T20:16:37.564755
+version: 133
+last_updated: 2026-03-14T20:16:42.538632
 active_agents: 0
 world_name: The First Void
 seed: 7734
@@ -31,14 +31,14 @@ temperature: 20
 mesh: ICOSA
 color: #aaaaaa
 scale: 1.500
-position: [27.42, 0, 4.00]
+position: [27.78, 0, 4.00]
 behaviour: wander
 behaviour_speed: 0.300
 behaviour_range: 15
 online: False
 message: near BARBARA
-energy: 55.300
-age: 19
+energy: 54.800
+age: 20
 children: 0
 energy_ticks: 0
 _origin: [8, 0, 4]
@@ -48,37 +48,37 @@ behaviour_state: seeking_center
 mesh: OCTA
 color: #bbbbbb
 scale: 1.200
-position: [12.53, 0.00, 7.17]
+position: [13.25, 0.00, 7.52]
 behaviour: flock
 behaviour_speed: 0.250
 behaviour_range: 18
 online: False
 message: near BARBARA
-energy: 91.300
-age: 19
+energy: 92.000
+age: 20
 children: 0
 energy_ticks: 0
 _origin: [-6, 0, 8]
-_dir: [0.94, 0.00, 0.34]
-behaviour_state: repelled
+_dir: [0.94, 0.00, 0.35]
+behaviour_state: seeking_center
 
 ### FRAME
 mesh: TETRA
 color: #999999
 scale: 1.400
-position: [13.59, 0.00, 5.20]
+position: [14.11, 0.00, 5.51]
 behaviour: flock
 behaviour_speed: 0.280
 behaviour_range: 18
 online: False
 message: near ECHO
-energy: 92.500
-age: 19
+energy: 93.200
+age: 20
 children: 0
 energy_ticks: 0
 _origin: [0, 0, -10]
-_dir: [0.77, 0.00, 0.63]
-behaviour_state: repelled
+_dir: [0.78, 0.00, 0.62]
+behaviour_state: seeking_center
 
 ### DIRECTOR
 mesh: DODECA
@@ -90,25 +90,25 @@ behaviour_speed: 0.100
 behaviour_range: 20
 online: False
 message: orchestrating
-energy: 99.700
+energy: 99.600
 energy_ticks: 0
-age: 67
+age: 68
 children: 0
 
 ### BARBARA
 mesh: KNOT
 color: #cccccc
 scale: 1.300
-position: [-9.90, 0, 10.41]
+position: [-14.28, 0, 1.58]
 behaviour: orbit
 behaviour_speed: 0.350
 behaviour_range: 14
 behaviour_target: DIRECTOR
 online: False
 message: near ECHO
-energy: 76.900
+energy: 76.400
 energy_ticks: 0
-age: 67
+age: 68
 children: 0
 behaviour_state: repelled
 
@@ -124,4 +124,4 @@ behaviour_state: repelled
 
 ---
 
-*VOID v3.0 — tick 132 — 20:16:37*
+*VOID v3.0 — tick 133 — 20:16:42*
