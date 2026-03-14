@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 42
-last_updated: 2026-03-14T20:09:03.764631
+version: 43
+last_updated: 2026-03-14T20:09:09.157496
 active_agents: 0
 world_name: The First Void
 seed: 7734
@@ -28,7 +28,7 @@ temperature: 20
 ## agents
 
 ### NOVA
-position: [29.73, 0, 4.00]
+position: [29.74, 0, 4.00]
 mesh: ICOSA
 color: #aaaaaa
 scale: 1.500
@@ -38,15 +38,15 @@ behaviour_speed: 0.300
 behaviour_range: 15
 online: False
 message: first contact
-energy: 39.500
-age: 41
+energy: 39.000
+age: 42
 children: 0
 energy_ticks: 0
 _origin: [8.00, 0, 4.00]
 behaviour_state: seeking_center
 
 ### ECHO
-position: [-23.15, 0.00, -1.95]
+position: [-23.51, 0.00, -1.03]
 mesh: OCTA
 color: #bbbbbb
 scale: 1.200
@@ -56,16 +56,16 @@ behaviour_speed: 0.250
 behaviour_range: 18
 online: False
 message: near FRAME
-energy: 74.300
-age: 41
+energy: 75.000
+age: 42
 children: 0
 energy_ticks: 0
 _origin: [-6.00, 0, 8.00]
-_dir: [-0.67, 0.00, 0.74]
+_dir: [-0.63, 0.00, 0.78]
 behaviour_state: repelled
 
 ### FRAME
-position: [-21.50, 0.00, -4.48]
+position: [-21.42, 0.00, -3.78]
 mesh: TETRA
 color: #999999
 scale: 1.400
@@ -75,12 +75,12 @@ behaviour_speed: 0.280
 behaviour_range: 18
 online: False
 message: near ECHO
-energy: 74.300
-age: 41
+energy: 75.000
+age: 42
 children: 0
 energy_ticks: 0
 _origin: [0.00, 0, -10.00]
-_dir: [-0.59, 0.00, 0.81]
+_dir: [-0.58, 0.00, 0.81]
 behaviour_state: repelled
 
 ---
@@ -90,4 +90,4 @@ behaviour_state: repelled
 
 ---
 
-*VOID v3.0 — tick 42 — 20:09:03*
+*VOID v3.0 — tick 43 — 20:09:09*
