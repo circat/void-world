@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 596
-last_updated: 2026-03-14T20:56:23.590158
+version: 597
+last_updated: 2026-03-14T20:56:28.481134
 active_agents: 10
 world_name: The First Void
 seed: 7734
@@ -31,14 +31,14 @@ temperature: 20
 mesh: ICOSA
 color: #aaaaaa
 scale: 1.500
-position: [25.11, 0, -5.98]
+position: [25.54, 0, -5.43]
 behaviour: wander
 behaviour_speed: 0.300
 behaviour_range: 15
 online: False
 message: near FRAME
-energy: 90.400
-age: 480
+energy: 89.900
+age: 481
 children: 0
 energy_ticks: 0
 _origin: [8, 0, 4]
@@ -56,7 +56,7 @@ behaviour_range: 18
 online: False
 message: near FRAME
 energy: 100.000
-age: 480
+age: 481
 children: 0
 energy_ticks: 0
 _origin: [-6, 0, 8]
@@ -74,7 +74,7 @@ behaviour_range: 18
 online: False
 message: near ECHO
 energy: 100.000
-age: 480
+age: 481
 children: 0
 energy_ticks: 0
 _origin: [0, 0, -10]
@@ -93,7 +93,7 @@ online: False
 message: near SIMONE
 energy: 100.000
 energy_ticks: 0
-age: 528
+age: 529
 children: 0
 behaviour_state: repelled
 
@@ -101,7 +101,7 @@ behaviour_state: repelled
 mesh: KNOT
 color: #cccccc
 scale: 1.300
-position: [-1.87, 0, -14.28]
+position: [7.77, 0, -12.13]
 behaviour: orbit
 behaviour_speed: 0.350
 behaviour_range: 14
@@ -110,7 +110,7 @@ online: False
 message: near FRAME
 energy: 100.000
 energy_ticks: 0
-age: 528
+age: 529
 children: 0
 behaviour_state: repelled
 
@@ -124,7 +124,7 @@ message: near SIMONE
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 113
+age: 114
 children: 0
 behaviour_state: repelled
 
@@ -138,7 +138,7 @@ message: near GONZALES
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 110
+age: 111
 children: 0
 
 ### CIPHER
@@ -151,7 +151,7 @@ message: near JAKQUES
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 110
+age: 111
 children: 0
 
 ### KERNEL
@@ -164,7 +164,7 @@ message: near VESPA
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 110
+age: 111
 children: 0
 
 ### SIMONE
@@ -177,7 +177,7 @@ message: near BERND
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 110
+age: 111
 children: 0
 
 ### BERND
@@ -190,7 +190,7 @@ message: near SIMONE
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 110
+age: 111
 children: 0
 
 ### GONZALES
@@ -203,7 +203,7 @@ message: near KARMA
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 110
+age: 111
 children: 0
 
 ### JAKQUES
@@ -216,7 +216,7 @@ message: near CIPHER
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 110
+age: 111
 children: 0
 
 ### VESPA
@@ -229,7 +229,7 @@ message: near KERNEL
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 110
+age: 111
 children: 0
 
 ### MIKA
@@ -242,7 +242,7 @@ message: scanning trends
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 110
+age: 111
 children: 0
 
 ---
@@ -257,4 +257,4 @@ children: 0
 
 ---
 
-*VOID v3.0 — tick 596 — 20:56:23*
+*VOID v3.0 — tick 597 — 20:56:28*
