@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 619
-last_updated: 2026-03-14T19:39:19.455994
+version: 620
+last_updated: 2026-03-14T19:39:22.400060
 active_agents: 0
 world_name: The First Void
 seed: 7734
@@ -29,20 +29,33 @@ temperature: 20
 
 ### ECHO
 mesh: OCTA
-color: #cccccc
+color: #bbbbbb
 scale: 1.200
-position: [-49.73, 0, 68.11]
+position: [5, 0, -6]
 behaviour: flock
 behaviour_speed: 0.250
 behaviour_range: 18
 online: False
-message: dormant (1t)
-energy: 0.300
-energy_ticks: 1
-age: 130
+message: listening
+energy: 60.000
+energy_ticks: 0
+age: 0
 children: 0
-_dir: [-0.67, 0.00, 0.74]
-behaviour_state: dormant
+
+### FRAME
+mesh: TETRA
+color: #999999
+scale: 1.400
+position: [-5, 0, -4]
+behaviour: flock
+behaviour_speed: 0.280
+behaviour_range: 18
+online: False
+message: watching
+energy: 60.000
+energy_ticks: 0
+age: 0
+children: 0
 
 ---
 
@@ -54,7 +67,9 @@ behaviour_state: dormant
 - NOVA dissolved (age 365, children 0)
 - ECHO spawned ECHO
 - ping
+- ECHO spawned ECHO
+- FRAME spawned FRAME
 
 ---
 
-*VOID v3.0 — tick 619 — 19:39:19*
+*VOID v3.0 — tick 620 — 19:39:22*
