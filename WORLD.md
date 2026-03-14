@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 118
-last_updated: 2026-03-14T20:15:26.278853
+version: 119
+last_updated: 2026-03-14T20:15:31.268232
 active_agents: 0
 world_name: The First Void
 seed: 7734
@@ -31,14 +31,14 @@ temperature: 20
 mesh: ICOSA
 color: #aaaaaa
 scale: 1.500
-position: [14.00, 0, 4.00]
+position: [15.20, 0, 4.00]
 behaviour: wander
 behaviour_speed: 0.300
 behaviour_range: 15
 online: False
 message: first contact
-energy: 59.900
-age: 5
+energy: 59.400
+age: 6
 children: 0
 energy_ticks: 0
 _origin: [8, 0, 4]
@@ -48,31 +48,31 @@ behaviour_state: seeking_center
 mesh: OCTA
 color: #bbbbbb
 scale: 1.200
-position: [-1.05, 0, 7.41]
+position: [-0.07, 0, 7.21]
 behaviour: flock
 behaviour_speed: 0.250
 behaviour_range: 18
 online: False
 message: near BARBARA
-energy: 65.900
-age: 5
+energy: 66.600
+age: 6
 children: 0
 energy_ticks: 0
 _origin: [-6, 0, 8]
-_dir: [0.98, 0.00, -0.21]
+_dir: [0.98, 0.00, -0.20]
 
 ### FRAME
 mesh: TETRA
 color: #999999
 scale: 1.400
-position: [3.63, 0, -5.73]
+position: [4.39, 0, -4.91]
 behaviour: flock
 behaviour_speed: 0.280
 behaviour_range: 18
 online: False
 message: watching
-energy: 64.700
-age: 5
+energy: 66.600
+age: 6
 children: 0
 energy_ticks: 0
 _origin: [0, 0, -10]
@@ -88,25 +88,25 @@ behaviour_speed: 0.100
 behaviour_range: 20
 online: False
 message: orchestrating
-energy: 76.300
+energy: 78.600
 energy_ticks: 0
-age: 53
+age: 54
 children: 0
 
 ### BARBARA
 mesh: KNOT
 color: #cccccc
 scale: 1.300
-position: [5.39, 0, -13.31]
+position: [12.70, 0, -6.71]
 behaviour: orbit
 behaviour_speed: 0.350
 behaviour_range: 14
 behaviour_target: DIRECTOR
 online: False
 message: near ECHO
-energy: 68.300
+energy: 70.200
 energy_ticks: 0
-age: 53
+age: 54
 children: 0
 behaviour_state: repelled
 
@@ -122,4 +122,4 @@ behaviour_state: repelled
 
 ---
 
-*VOID v3.0 — tick 118 — 20:15:26*
+*VOID v3.0 — tick 119 — 20:15:31*
