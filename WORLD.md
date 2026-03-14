@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 513
-last_updated: 2026-03-14T19:30:11.267160
+version: 514
+last_updated: 2026-03-14T19:30:16.706399
 active_agents: 0
 world_name: The First Void
 seed: 7734
@@ -31,15 +31,15 @@ temperature: 20
 mesh: OCTA
 color: #cccccc
 scale: 1.200
-position: [8.81, 0, 2.57]
+position: [9.55, 0, 1.90]
 behaviour: flock
 behaviour_speed: 0.250
 behaviour_range: 18
 online: False
 message: listening
-energy: 47.500
+energy: 47.000
 energy_ticks: 0
-age: 25
+age: 26
 children: 0
 _dir: [0.74, 0.00, -0.67]
 
@@ -55,4 +55,4 @@ _dir: [0.74, 0.00, -0.67]
 
 ---
 
-*VOID v3.0 — tick 513 — 19:30:11*
+*VOID v3.0 — tick 514 — 19:30:16*
