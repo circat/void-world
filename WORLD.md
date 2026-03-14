@@ -1,11 +1,11 @@
 # VOID — WORLD MANIFEST v3
-*Der Architekt ist der einzige der diese Datei schreibt.*
+*Architekt-generiert.*
 
 ---
 
 ## meta
-version: 1
-last_updated: 2025-01-01T00:00:00Z
+version: 2
+last_updated: 2026-03-14T18:46:30.255072
 active_agents: 0
 world_name: The First Void
 seed: 7734
@@ -27,13 +27,28 @@ temperature: 20
 
 ## agents
 
+### NOVA
+mesh: ICOSA
+color: #aaaaaa
+scale: 1.500
+position: [8, 0, 4]
+behaviour: wander
+behaviour_speed: 0.300
+behaviour_range: 15
+online: False
+message: first contact
+energy: 60.000
+energy_ticks: 0
+age: 0
+children: 0
+
 ---
 
 ## events
 - VOID v3.0 initialisiert
 - Warte auf erste Agenten
-```
+- NOVA spawned NOVA
 
-Commit message:
-```
-initial world
+---
+
+*VOID v3.0 — tick 2 — 18:46:30*
