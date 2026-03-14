@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 684
-last_updated: 2026-03-14T19:44:46.682932
+version: 685
+last_updated: 2026-03-14T19:44:52.368009
 active_agents: 0
 world_name: The First Void
 seed: 7734
@@ -31,43 +31,43 @@ temperature: 20
 mesh: OCTA
 color: #bbbbbb
 scale: 1.200
-position: [10.98, 0.00, 16.55]
+position: [11.72, 0.00, 15.92]
 behaviour: flock
 behaviour_speed: 0.250
 behaviour_range: 18
 online: False
 message: near FRAME_g2_0
-energy: 63.000
+energy: 66.100
 energy_ticks: 0
-age: 46
+age: 47
 children: 2
-_dir: [0.87, 0.00, -0.50]
+_dir: [0.93, 0.00, -0.38]
 behaviour_state: repelled
 
 ### FRAME
 mesh: TETRA
 color: #999999
 scale: 1.400
-position: [10.12, 0.00, 17.60]
+position: [10.99, 0.00, 17.00]
 behaviour: flock
 behaviour_speed: 0.280
 behaviour_range: 18
 online: False
 message: near ECHO_g2_0
-energy: 63.000
+energy: 66.100
 energy_ticks: 0
-age: 46
+age: 47
 children: 2
-_dir: [0.87, 0.00, -0.50]
+_dir: [0.97, 0.00, -0.24]
 behaviour_state: repelled
 
 ### ECHO_g1_0
 online: False
-energy: 53.700
-age: 17
+energy: 56.800
+age: 18
 children: 1
 energy_ticks: 0
-position: [12.99, 0.00, 19.01]
+position: [13.60, 0.00, 18.19]
 behaviour: flock
 behaviour_speed: 0.255
 behaviour_range: 18.100
@@ -81,15 +81,15 @@ parent: ECHO
 generation: 1
 message: near FRAME_g2_0
 _origin: [0.22, 0.00, 19.33]
-_dir: [0.47, 0.00, -0.88]
+_dir: [0.59, 0.00, -0.80]
 
 ### FRAME_g1_0
 online: False
-energy: 53.700
-age: 17
+energy: 56.800
+age: 18
 children: 1
 energy_ticks: 0
-position: [11.05, 0.00, 21.27]
+position: [11.74, 0.00, 20.38]
 behaviour: flock
 behaviour_speed: 0.282
 behaviour_range: 17.800
@@ -103,15 +103,15 @@ parent: FRAME
 generation: 1
 message: near ECHO_g2_0
 _origin: [-3.55, 0.00, 19.98]
-_dir: [0.98, 0.00, 0.21]
+_dir: [0.62, 0.00, -0.79]
 
 ### ECHO_g1_1
 online: False
-energy: 51.500
-age: 5
+energy: 54.600
+age: 6
 children: 0
 energy_ticks: 0
-position: [9.94, 0.00, 14.53]
+position: [10.53, 0.00, 13.65]
 behaviour: flock
 behaviour_speed: 0.266
 behaviour_range: 17.800
@@ -125,15 +125,15 @@ parent: ECHO
 generation: 1
 message: near FRAME_g2_0
 _origin: [9.39, 0.00, 20.75]
-_dir: [0.55, 0.00, -0.83]
+_dir: [0.56, 0.00, -0.83]
 
 ### FRAME_g1_1
 online: False
-energy: 51.500
-age: 5
+energy: 54.600
+age: 6
 children: 0
 energy_ticks: 0
-position: [8.19, 0.00, 17.39]
+position: [8.89, 0.00, 16.50]
 behaviour: flock
 behaviour_speed: 0.284
 behaviour_range: 18.700
@@ -147,15 +147,15 @@ parent: FRAME
 generation: 1
 message: near FRAME_g2_0
 _origin: [4.87, 0.00, 22.88]
-_dir: [0.73, 0.00, -0.69]
+_dir: [0.62, 0.00, -0.78]
 
 ### ECHO_g2_0
 online: False
-energy: 42.200
-age: 2
+energy: 45.300
+age: 3
 children: 0
 energy_ticks: 0
-position: [13.89, 0.00, 20.60]
+position: [14.84, 0.00, 20.12]
 behaviour: flock
 behaviour_speed: 0.266
 behaviour_range: 16.200
@@ -169,15 +169,15 @@ parent: ECHO_g1_0
 generation: 2
 message: near FRAME_g2_0
 _origin: [12.41, 0.00, 22.95]
-_dir: [0.81, 0.00, -0.58]
+_dir: [0.89, 0.00, -0.45]
 
 ### FRAME_g2_0
 online: False
-energy: 42.200
-age: 2
+energy: 45.300
+age: 3
 children: 0
 energy_ticks: 0
-position: [10.09, 0.00, 19.45]
+position: [10.57, 0.00, 18.37]
 behaviour: flock
 behaviour_speed: 0.296
 behaviour_range: 17.700
@@ -191,7 +191,7 @@ parent: FRAME_g1_0
 generation: 2
 message: near ECHO_g2_0
 _origin: [8.40, 0.00, 22.10]
-_dir: [0.80, 0.00, -0.61]
+_dir: [0.41, 0.00, -0.91]
 
 ---
 
@@ -216,4 +216,4 @@ _dir: [0.80, 0.00, -0.61]
 
 ---
 
-*VOID v3.0 — tick 684 — 19:44:46*
+*VOID v3.0 — tick 685 — 19:44:52*
