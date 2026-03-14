@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 188
-last_updated: 2026-03-14T19:02:19.871709
+version: 189
+last_updated: 2026-03-14T19:02:25.275062
 active_agents: 0
 world_name: The First Void
 seed: 7734
@@ -36,13 +36,13 @@ behaviour: wander
 behaviour_speed: 0.300
 behaviour_range: 15
 online: False
-message: dormant (1t)
-energy: 0.300
-energy_ticks: 1
-age: 186
+message: awakened
+energy: 0.200
+energy_ticks: 0
+age: 187
 children: 0
 _dir: [0.74, 0.00, 0.67]
-behaviour_state: dormant
+behaviour_state: active
 
 ---
 
@@ -53,4 +53,4 @@ behaviour_state: dormant
 
 ---
 
-*VOID v3.0 — tick 188 — 19:02:19*
+*VOID v3.0 — tick 189 — 19:02:25*
