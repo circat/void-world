@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 659
-last_updated: 2026-03-14T19:42:36.863849
+version: 660
+last_updated: 2026-03-14T19:42:42.238550
 active_agents: 0
 world_name: The First Void
 seed: 7734
@@ -31,15 +31,15 @@ temperature: 20
 mesh: OCTA
 color: #bbbbbb
 scale: 1.200
-position: [0.54, 0, 14.19]
+position: [0.12, 0, 15.10]
 behaviour: flock
 behaviour_speed: 0.250
 behaviour_range: 18
 online: False
 message: near FRAME
-energy: 74.700
+energy: 75.400
 energy_ticks: 0
-age: 21
+age: 22
 children: 0
 _dir: [-0.42, 0.00, 0.91]
 behaviour_state: repelled
@@ -48,17 +48,17 @@ behaviour_state: repelled
 mesh: TETRA
 color: #999999
 scale: 1.400
-position: [-0.93, 0, 16.99]
+position: [-1.36, 0.00, 18.01]
 behaviour: flock
 behaviour_speed: 0.280
 behaviour_range: 18
 online: False
 message: near ECHO
-energy: 74.700
+energy: 75.400
 energy_ticks: 0
-age: 21
+age: 22
 children: 0
-_dir: [-0.39, 0.00, 0.92]
+_dir: [-0.38, 0.00, 0.92]
 behaviour_state: repelled
 
 ---
@@ -78,4 +78,4 @@ behaviour_state: repelled
 
 ---
 
-*VOID v3.0 — tick 659 — 19:42:36*
+*VOID v3.0 — tick 660 — 19:42:42*
