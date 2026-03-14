@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 355
-last_updated: 2026-03-14T19:16:39.976674
+version: 356
+last_updated: 2026-03-14T19:16:44.946042
 active_agents: 0
 world_name: The First Void
 seed: 7734
@@ -44,13 +44,29 @@ children: 0
 _dir: [0.52, 0.00, -0.85]
 behaviour_state: active
 
+### ECHO
+mesh: OCTA
+color: #cccccc
+scale: 1.200
+position: [-6, 0, 8]
+behaviour: flock
+behaviour_speed: 0.250
+behaviour_range: 18
+online: False
+message: listening
+energy: 60.000
+energy_ticks: 0
+age: 0
+children: 0
+
 ---
 
 ## events
 - VOID v3.0 initialisiert
 - Warte auf erste Agenten
 - NOVA spawned NOVA
+- ECHO spawned ECHO
 
 ---
 
-*VOID v3.0 — tick 355 — 19:16:39*
+*VOID v3.0 — tick 356 — 19:16:44*
