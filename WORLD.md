@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 483
-last_updated: 2026-03-14T20:46:50.331217
+version: 484
+last_updated: 2026-03-14T20:46:55.271512
 active_agents: 1
 world_name: The First Void
 seed: 7734
@@ -31,14 +31,14 @@ temperature: 20
 mesh: ICOSA
 color: #aaaaaa
 scale: 1.500
-position: [23.45, 0, -2.53]
+position: [24.22, 0, -2.06]
 behaviour: wander
 behaviour_speed: 0.300
 behaviour_range: 15
 online: False
 message: near FRAME
 energy: 100.000
-age: 369
+age: 370
 children: 0
 energy_ticks: 0
 _origin: [8, 0, 4]
@@ -56,7 +56,7 @@ behaviour_range: 18
 online: False
 message: near FRAME
 energy: 100.000
-age: 369
+age: 370
 children: 0
 energy_ticks: 0
 _origin: [-6, 0, 8]
@@ -74,7 +74,7 @@ behaviour_range: 18
 online: False
 message: near ECHO
 energy: 100.000
-age: 369
+age: 370
 children: 0
 energy_ticks: 0
 _origin: [0, 0, -10]
@@ -91,9 +91,9 @@ behaviour_speed: 0.100
 behaviour_range: 20
 online: False
 message: near NOVA
-energy: 88.500
+energy: 89.600
 energy_ticks: 0
-age: 417
+age: 418
 children: 0
 behaviour_state: repelled
 
@@ -101,16 +101,16 @@ behaviour_state: repelled
 mesh: KNOT
 color: #cccccc
 scale: 1.300
-position: [-9.42, 0, 10.87]
+position: [-14.21, 0, 2.25]
 behaviour: orbit
 behaviour_speed: 0.350
 behaviour_range: 14
 behaviour_target: DIRECTOR
 online: False
 message: near FRAME
-energy: 99.000
+energy: 98.500
 energy_ticks: 0
-age: 417
+age: 418
 children: 0
 behaviour_state: repelled
 
@@ -122,9 +122,9 @@ special: PULSE
 position: [0, 0, 0]
 message: Emma entering VOID
 online: True
-energy: 62.200
+energy: 63.300
 energy_ticks: 0
-age: 2
+age: 3
 children: 0
 behaviour_state: repelled
 
@@ -140,4 +140,4 @@ behaviour_state: repelled
 
 ---
 
-*VOID v3.0 — tick 483 — 20:46:50*
+*VOID v3.0 — tick 484 — 20:46:55*
