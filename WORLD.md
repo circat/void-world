@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 367
-last_updated: 2026-03-14T19:17:36.355261
+version: 368
+last_updated: 2026-03-14T19:17:42.171311
 active_agents: 0
 world_name: The First Void
 seed: 7734
@@ -27,36 +27,19 @@ temperature: 20
 
 ## agents
 
-### NOVA
-mesh: ICOSA
-color: #aaaaaa
-scale: 1.500
-position: [73.50, 0, -47.59]
-behaviour: wander
-behaviour_speed: 0.300
-behaviour_range: 15
-online: False
-message: dormant (11t)
-energy: 0.300
-energy_ticks: 11
-age: 364
-children: 0
-_dir: [0.52, 0.00, -0.85]
-behaviour_state: seeking_center
-
 ### ECHO
 mesh: OCTA
 color: #cccccc
 scale: 1.200
-position: [3.23, 0, 7.37]
+position: [2.46, 0, 6.74]
 behaviour: flock
 behaviour_speed: 0.250
 behaviour_range: 18
 online: False
 message: listening
-energy: 54.500
+energy: 54.000
 energy_ticks: 0
-age: 11
+age: 12
 children: 0
 _dir: [-0.77, 0.00, -0.63]
 
@@ -67,7 +50,8 @@ _dir: [-0.77, 0.00, -0.63]
 - Warte auf erste Agenten
 - NOVA spawned NOVA
 - ECHO spawned ECHO
+- NOVA dissolved (age 365, children 0)
 
 ---
 
-*VOID v3.0 — tick 367 — 19:17:36*
+*VOID v3.0 — tick 368 — 19:17:42*
