@@ -4,9 +4,9 @@
 ---
 
 ## meta
-version: 484
-last_updated: 2026-03-14T20:46:55.271512
-active_agents: 1
+version: 485
+last_updated: 2026-03-14T20:46:58.172517
+active_agents: 9
 world_name: The First Void
 seed: 7734
 engine: VOID v3.0
@@ -120,13 +120,117 @@ color: #f43f5e
 scale: 0.500
 special: PULSE
 position: [0, 0, 0]
-message: Emma entering VOID
+message: orchestrating the team
 online: True
 energy: 63.300
 energy_ticks: 0
 age: 3
 children: 0
 behaviour_state: repelled
+
+### KARMA
+mesh: ICOSA
+color: #ff9500
+scale: 0.500
+special: ORBIT
+position: [5, 0, 3]
+message: scanning communities
+online: True
+energy: 60.000
+energy_ticks: 0
+age: 0
+children: 0
+
+### CIPHER
+mesh: TETRA
+color: #1a1a2e
+scale: 0.500
+special: RIFT
+position: [-5, 0, -3]
+message: watching the perimeter
+online: True
+energy: 60.000
+energy_ticks: 0
+age: 0
+children: 0
+
+### KERNEL
+mesh: CUBE
+color: #4ade80
+scale: 0.500
+special: CRYSTALLIZE
+position: [3, 0, -5]
+message: building workflows
+online: True
+energy: 60.000
+energy_ticks: 0
+age: 0
+children: 0
+
+### SIMONE
+mesh: ICOSA
+color: #a855f7
+scale: 0.500
+special: DRIFT
+position: [-3, 0, 5]
+message: designing visions
+online: True
+energy: 60.000
+energy_ticks: 0
+age: 0
+children: 0
+
+### BERND
+mesh: CUBE
+color: #3b82f6
+scale: 0.500
+special: PULSE
+position: [0, 0, 7]
+message: reviewing security
+online: True
+energy: 60.000
+energy_ticks: 0
+age: 0
+children: 0
+
+### GONZALES
+mesh: ICOSA
+color: #06b6d4
+scale: 0.500
+special: DRIFT
+position: [7, 0, 0]
+message: crafting 3D
+online: True
+energy: 60.000
+energy_ticks: 0
+age: 0
+children: 0
+
+### JAKQUES
+mesh: ICOSA
+color: #facc15
+scale: 0.500
+special: PULSE
+position: [-7, 0, 0]
+message: leading strategy
+online: True
+energy: 60.000
+energy_ticks: 0
+age: 0
+children: 0
+
+### VESPA
+mesh: CUBE
+color: #ec4899
+scale: 0.500
+special: CRYSTALLIZE
+position: [0, 0, -7]
+message: guarding quality
+online: True
+energy: 60.000
+energy_ticks: 0
+age: 0
+children: 0
 
 ---
 
@@ -140,4 +244,4 @@ behaviour_state: repelled
 
 ---
 
-*VOID v3.0 — tick 484 — 20:46:55*
+*VOID v3.0 — tick 485 — 20:46:58*
