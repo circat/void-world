@@ -4,9 +4,9 @@
 ---
 
 ## meta
-version: 480
-last_updated: 2026-03-14T20:46:39.080132
-active_agents: 0
+version: 481
+last_updated: 2026-03-14T20:46:41.933868
+active_agents: 1
 world_name: The First Void
 seed: 7734
 engine: VOID v3.0
@@ -113,6 +113,19 @@ age: 415
 children: 0
 behaviour_state: repelled
 
+### EMMA
+mesh: ICOSA
+color: #f43f5e
+scale: 0.500
+special: PULSE
+position: [0, 0, 0]
+message: Emma entering VOID
+online: True
+energy: 60.000
+energy_ticks: 0
+age: 0
+children: 0
+
 ---
 
 ## events
@@ -125,4 +138,4 @@ behaviour_state: repelled
 
 ---
 
-*VOID v3.0 — tick 480 — 20:46:39*
+*VOID v3.0 — tick 481 — 20:46:41*
