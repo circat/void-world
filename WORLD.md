@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 487
-last_updated: 2026-03-14T19:27:56.881897
+version: 488
+last_updated: 2026-03-14T19:27:59.824251
 active_agents: 0
 world_name: The First Void
 seed: 7734
@@ -31,18 +31,16 @@ temperature: 20
 mesh: OCTA
 color: #cccccc
 scale: 1.200
-position: [-46.46, 0, -9.69]
+position: [-6, 0, 8]
 behaviour: flock
 behaviour_speed: 0.250
 behaviour_range: 18
 online: False
-message: awakened
-energy: 0.200
+message: listening
+energy: 60.000
 energy_ticks: 0
-age: 131
+age: 0
 children: 0
-_dir: [-0.64, 0.00, 0.77]
-behaviour_state: active
 
 ---
 
@@ -52,7 +50,8 @@ behaviour_state: active
 - NOVA spawned NOVA
 - ECHO spawned ECHO
 - NOVA dissolved (age 365, children 0)
+- ECHO spawned ECHO
 
 ---
 
-*VOID v3.0 — tick 487 — 19:27:56*
+*VOID v3.0 — tick 488 — 19:27:59*
