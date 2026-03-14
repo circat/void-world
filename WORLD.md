@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 256
-last_updated: 2026-03-14T20:27:16.704622
+version: 257
+last_updated: 2026-03-14T20:27:21.627357
 active_agents: 0
 world_name: The First Void
 seed: 7734
@@ -31,14 +31,14 @@ temperature: 20
 mesh: ICOSA
 color: #aaaaaa
 scale: 1.500
-position: [4.29, 0, -12.59]
+position: [5.35, 0, -11.80]
 behaviour: wander
 behaviour_speed: 0.300
 behaviour_range: 15
 online: False
 message: near BARBARA
-energy: 92.100
-age: 143
+energy: 91.600
+age: 144
 children: 0
 energy_ticks: 0
 _origin: [8, 0, 4]
@@ -56,7 +56,7 @@ behaviour_range: 18
 online: False
 message: near FRAME
 energy: 100.000
-age: 143
+age: 144
 children: 0
 energy_ticks: 0
 _origin: [-6, 0, 8]
@@ -74,7 +74,7 @@ behaviour_range: 18
 online: False
 message: near ECHO
 energy: 100.000
-age: 143
+age: 144
 children: 0
 energy_ticks: 0
 _origin: [0, 0, -10]
@@ -91,25 +91,25 @@ behaviour_speed: 0.100
 behaviour_range: 20
 online: False
 message: orchestrating
-energy: 87.300
+energy: 87.200
 energy_ticks: 0
-age: 191
+age: 192
 children: 0
 
 ### BARBARA
 mesh: KNOT
 color: #cccccc
 scale: 1.300
-position: [5.67, 0, 13.22]
+position: [-4.18, 0, 13.76]
 behaviour: orbit
 behaviour_speed: 0.350
 behaviour_range: 14
 behaviour_target: DIRECTOR
 online: False
 message: near ECHO
-energy: 90.500
+energy: 90.000
 energy_ticks: 0
-age: 191
+age: 192
 children: 0
 behaviour_state: repelled
 
@@ -125,4 +125,4 @@ behaviour_state: repelled
 
 ---
 
-*VOID v3.0 — tick 256 — 20:27:16*
+*VOID v3.0 — tick 257 — 20:27:21*
