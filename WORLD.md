@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 666
-last_updated: 2026-03-14T19:43:13.088815
+version: 667
+last_updated: 2026-03-14T19:43:18.076551
 active_agents: 0
 world_name: The First Void
 seed: 7734
@@ -31,35 +31,77 @@ temperature: 20
 mesh: OCTA
 color: #bbbbbb
 scale: 1.200
-position: [-2.28, 0.00, 19.85]
+position: [-2.69, 0.00, 20.30]
 behaviour: flock
 behaviour_speed: 0.250
 behaviour_range: 18
 online: False
-message: near FRAME
-energy: 79.600
+message: near FRAME_g1_0
+energy: 45.300
 energy_ticks: 0
-age: 28
-children: 0
-_dir: [-0.44, 0.00, 0.90]
+age: 29
+children: 1
+_dir: [-0.47, 0.00, 0.88]
 behaviour_state: repelled
 
 ### FRAME
 mesh: TETRA
 color: #999999
 scale: 1.400
-position: [-3.56, 0.00, 21.54]
+position: [-3.96, 0.00, 21.80]
 behaviour: flock
 behaviour_speed: 0.280
 behaviour_range: 18
 online: False
-message: near ECHO
-energy: 79.600
+message: near ECHO_g1_0
+energy: 45.300
 energy_ticks: 0
-age: 28
-children: 0
-_dir: [-0.43, 0.00, 0.90]
+age: 29
+children: 1
+_dir: [-0.47, 0.00, 0.88]
 behaviour_state: repelled
+
+### ECHO_g1_0
+online: False
+energy: 36.000
+age: 0
+children: 0
+energy_ticks: 0
+position: [-0.86, 0.00, 20.23]
+behaviour: flock
+behaviour_speed: 0.255
+behaviour_range: 18.100
+behaviour_state: repelled
+behaviour_stage: 1
+scale: 1.200
+mesh: OCTA
+color: #bbbbbb
+special: ECHO
+parent: ECHO
+generation: 1
+message: near FRAME_g1_0
+_origin: [0.22, 0.00, 19.33]
+
+### FRAME_g1_0
+online: False
+energy: 36.000
+age: 0
+children: 0
+energy_ticks: 0
+position: [-3.71, 0.00, 22.99]
+behaviour: flock
+behaviour_speed: 0.282
+behaviour_range: 17.800
+behaviour_state: repelled
+behaviour_stage: 1
+scale: 1.450
+mesh: TETRA
+color: #999999
+special: ECHO
+parent: FRAME
+generation: 1
+message: near ECHO_g1_0
+_origin: [-3.55, 0.00, 19.98]
 
 ---
 
@@ -75,7 +117,9 @@ behaviour_state: repelled
 - FRAME spawned FRAME
 - ECHO spawned ECHO
 - FRAME spawned FRAME
+- ECHO -> ECHO_g1_0 (gen 1)
+- FRAME -> FRAME_g1_0 (gen 1)
 
 ---
 
-*VOID v3.0 — tick 666 — 19:43:13*
+*VOID v3.0 — tick 667 — 19:43:18*
