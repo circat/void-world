@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 146
-last_updated: 2026-03-14T20:17:50.497978
+version: 147
+last_updated: 2026-03-14T20:17:55.455340
 active_agents: 0
 world_name: The First Void
 seed: 7734
@@ -31,14 +31,14 @@ temperature: 20
 mesh: ICOSA
 color: #aaaaaa
 scale: 1.500
-position: [29.55, 0, 4.00]
+position: [29.59, 0, 4.00]
 behaviour: wander
 behaviour_speed: 0.300
 behaviour_range: 15
 online: False
 message: near BARBARA
-energy: 51.900
-age: 33
+energy: 52.600
+age: 34
 children: 0
 energy_ticks: 0
 _origin: [8, 0, 4]
@@ -48,36 +48,36 @@ behaviour_state: seeking_center
 mesh: OCTA
 color: #bbbbbb
 scale: 1.200
-position: [17.08, 0.00, 8.34]
+position: [17.17, 0.00, 8.27]
 behaviour: flock
 behaviour_speed: 0.250
 behaviour_range: 18
 online: False
-message: near FRAME
+message: near BARBARA
 energy: 100.000
-age: 33
+age: 34
 children: 0
 energy_ticks: 0
 _origin: [-6, 0, 8]
-_dir: [1.00, 0.00, -0.08]
+_dir: [1.00, 0.00, -0.06]
 behaviour_state: seeking_center
 
 ### FRAME
 mesh: TETRA
 color: #999999
 scale: 1.400
-position: [18.36, 0.00, 5.08]
+position: [18.53, 0.00, 5.00]
 behaviour: flock
 behaviour_speed: 0.280
 behaviour_range: 18
 online: False
-message: near ECHO
+message: near BARBARA
 energy: 100.000
-age: 33
+age: 34
 children: 0
 energy_ticks: 0
 _origin: [0, 0, -10]
-_dir: [0.88, 0.00, 0.47]
+_dir: [0.86, 0.00, 0.50]
 behaviour_state: seeking_center
 
 ### DIRECTOR
@@ -90,25 +90,25 @@ behaviour_speed: 0.100
 behaviour_range: 20
 online: False
 message: orchestrating
-energy: 98.300
+energy: 98.200
 energy_ticks: 0
-age: 81
+age: 82
 children: 0
 
 ### BARBARA
 mesh: KNOT
 color: #cccccc
 scale: 1.300
-position: [13.03, 0, -6.05]
+position: [13.86, 0, 3.77]
 behaviour: orbit
 behaviour_speed: 0.350
 behaviour_range: 14
 behaviour_target: DIRECTOR
 online: False
 message: near FRAME
-energy: 74.700
+energy: 76.600
 energy_ticks: 0
-age: 81
+age: 82
 children: 0
 behaviour_state: repelled
 
@@ -124,4 +124,4 @@ behaviour_state: repelled
 
 ---
 
-*VOID v3.0 — tick 146 — 20:17:50*
+*VOID v3.0 — tick 147 — 20:17:55*
