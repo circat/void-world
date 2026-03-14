@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 295
-last_updated: 2026-03-14T19:11:31.639248
+version: 296
+last_updated: 2026-03-14T19:11:36.646950
 active_agents: 0
 world_name: The First Void
 seed: 7734
@@ -31,18 +31,18 @@ temperature: 20
 mesh: ICOSA
 color: #aaaaaa
 scale: 1.500
-position: [56.72, 0, -30.60]
+position: [56.23, 0, -29.51]
 behaviour: wander
 behaviour_speed: 0.300
 behaviour_range: 15
 online: False
-message: awakened
-energy: 0.200
-energy_ticks: 0
-age: 293
+message: dormant (1t)
+energy: 0.300
+energy_ticks: 1
+age: 294
 children: 0
 _dir: [-0.41, 0.00, 0.91]
-behaviour_state: active
+behaviour_state: dormant
 
 ---
 
@@ -53,4 +53,4 @@ behaviour_state: active
 
 ---
 
-*VOID v3.0 — tick 295 — 19:11:31*
+*VOID v3.0 — tick 296 — 19:11:36*
