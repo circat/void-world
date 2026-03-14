@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 134
-last_updated: 2026-03-14T20:16:47.970270
+version: 135
+last_updated: 2026-03-14T20:16:53.321810
 active_agents: 0
 world_name: The First Void
 seed: 7734
@@ -31,14 +31,14 @@ temperature: 20
 mesh: ICOSA
 color: #aaaaaa
 scale: 1.500
-position: [28.08, 0, 4.00]
+position: [28.34, 0, 4.00]
 behaviour: wander
 behaviour_speed: 0.300
 behaviour_range: 15
 online: False
 message: near BARBARA
-energy: 54.300
-age: 21
+energy: 53.800
+age: 22
 children: 0
 energy_ticks: 0
 _origin: [8, 0, 4]
@@ -48,36 +48,36 @@ behaviour_state: seeking_center
 mesh: OCTA
 color: #bbbbbb
 scale: 1.200
-position: [13.86, 0.00, 7.87]
+position: [14.38, 0.00, 8.20]
 behaviour: flock
 behaviour_speed: 0.250
 behaviour_range: 18
 online: False
 message: near BARBARA
-energy: 92.700
-age: 21
+energy: 93.400
+age: 22
 children: 0
 energy_ticks: 0
 _origin: [-6, 0, 8]
-_dir: [0.94, 0.00, 0.35]
+_dir: [0.94, 0.00, 0.33]
 behaviour_state: seeking_center
 
 ### FRAME
 mesh: TETRA
 color: #999999
 scale: 1.400
-position: [14.57, 0.00, 5.76]
+position: [14.98, 0.00, 5.95]
 behaviour: flock
 behaviour_speed: 0.280
 behaviour_range: 18
 online: False
 message: near ECHO
-energy: 93.900
-age: 21
+energy: 94.600
+age: 22
 children: 0
 energy_ticks: 0
 _origin: [0, 0, -10]
-_dir: [0.78, 0.00, 0.62]
+_dir: [0.79, 0.00, 0.62]
 behaviour_state: seeking_center
 
 ### DIRECTOR
@@ -90,25 +90,25 @@ behaviour_speed: 0.100
 behaviour_range: 20
 online: False
 message: orchestrating
-energy: 99.500
+energy: 99.400
 energy_ticks: 0
-age: 69
+age: 70
 children: 0
 
 ### BARBARA
 mesh: KNOT
 color: #cccccc
 scale: 1.300
-position: [-11.94, 0, -7.99]
+position: [-3.98, 0, -13.80]
 behaviour: orbit
 behaviour_speed: 0.350
 behaviour_range: 14
 behaviour_target: DIRECTOR
 online: False
 message: near ECHO
-energy: 75.900
+energy: 75.400
 energy_ticks: 0
-age: 69
+age: 70
 children: 0
 behaviour_state: repelled
 
@@ -124,4 +124,4 @@ behaviour_state: repelled
 
 ---
 
-*VOID v3.0 — tick 134 — 20:16:47*
+*VOID v3.0 — tick 135 — 20:16:53*
