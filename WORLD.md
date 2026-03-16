@@ -4,8 +4,8 @@
 ---
 
 ## meta
-version: 32637
-last_updated: 2026-03-16T16:59:05.576838
+version: 33199
+last_updated: 2026-03-16T17:09:06.518355
 active_agents: 10
 world_name: The First Void
 seed: 7734
@@ -31,37 +31,37 @@ temperature: 20
 mesh: OCTA
 color: #bbbbbb
 scale: 1.200
-position: [14.52, 0.00, 6.96]
+position: [14.46, 0.00, 7.55]
 behaviour: flock
 behaviour_speed: 0.250
 behaviour_range: 18
 online: False
 message: near FRAME
 energy: 100.000
-age: 32521
+age: 33083
 children: 0
 energy_ticks: 0
 _origin: [-6, 0, 8]
-_dir: [0.91, 0.00, 0.42]
-behaviour_state: repelled
+_dir: [0.80, 0.00, 0.60]
+behaviour_state: seeking_center
 
 ### FRAME
 mesh: TETRA
 color: #999999
 scale: 1.400
-position: [15.93, 0.00, 3.47]
+position: [15.53, 0.00, 3.88]
 behaviour: flock
 behaviour_speed: 0.280
 behaviour_range: 18
 online: False
 message: near ECHO
 energy: 100.000
-age: 32521
+age: 33083
 children: 0
 energy_ticks: 0
 _origin: [0, 0, -10]
-_dir: [0.36, 0.00, 0.93]
-behaviour_state: repelled
+_dir: [0.30, 0.00, 0.95]
+behaviour_state: seeking_center
 
 ### DIRECTOR
 mesh: DODECA
@@ -75,7 +75,7 @@ online: False
 message: near SIMONE
 energy: 100.000
 energy_ticks: 0
-age: 32569
+age: 33131
 children: 0
 behaviour_state: repelled
 
@@ -83,16 +83,16 @@ behaviour_state: repelled
 mesh: KNOT
 color: #cccccc
 scale: 1.300
-position: [0.75, 0, 14.38]
+position: [-13.76, 0, -4.25]
 behaviour: orbit
 behaviour_speed: 0.350
 behaviour_range: 14
 behaviour_target: DIRECTOR
 online: False
-message: near FRAME
+message: near ECHO
 energy: 100.000
 energy_ticks: 0
-age: 32569
+age: 33131
 children: 0
 behaviour_state: repelled
 
@@ -106,7 +106,7 @@ message: near SIMONE
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 32154
+age: 32716
 children: 0
 behaviour_state: repelled
 
@@ -120,7 +120,7 @@ message: near GONZALES
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 32151
+age: 32713
 children: 0
 behaviour_state: repelled
 
@@ -134,7 +134,7 @@ message: near JAKQUES
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 32151
+age: 32713
 children: 0
 behaviour_state: repelled
 
@@ -148,7 +148,7 @@ message: near VESPA
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 32151
+age: 32713
 children: 0
 behaviour_state: repelled
 
@@ -162,7 +162,7 @@ message: near BERND
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 32151
+age: 32713
 children: 0
 behaviour_state: repelled
 
@@ -176,7 +176,7 @@ message: near SIMONE
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 32151
+age: 32713
 children: 0
 behaviour_state: repelled
 
@@ -190,7 +190,7 @@ message: near KARMA
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 32151
+age: 32713
 children: 0
 behaviour_state: repelled
 
@@ -204,7 +204,7 @@ message: near CIPHER
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 32151
+age: 32713
 children: 0
 behaviour_state: repelled
 
@@ -218,7 +218,7 @@ message: near KERNEL
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 32151
+age: 32713
 children: 0
 behaviour_state: repelled
 
@@ -232,7 +232,7 @@ message: scanning trends
 online: True
 energy: 100.000
 energy_ticks: 0
-age: 32151
+age: 32713
 children: 0
 
 ---
@@ -251,4 +251,4 @@ children: 0
 
 ---
 
-*Die Architektin — v32637 — 2026-03-16T16:59:05*
+*Die Architektin — v33199 — 2026-03-16T17:09:06*
