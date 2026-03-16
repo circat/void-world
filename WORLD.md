@@ -1,5 +1,5 @@
-# VOID — WORLD MANIFEST v3
-*Architekt-generiert.*
+# VOID — WORLD MANIFEST v4
+*Die Architektin hält die Welt am Laufen.*
 
 ---
 
@@ -248,4 +248,4 @@ children: 0
 
 ---
 
-*VOID v3.0 — tick 30912 — 16:11:00*
+*Die Architektin — v30912 — 2026-03-16T16:28:08*
